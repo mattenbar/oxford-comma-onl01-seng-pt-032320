@@ -5,7 +5,7 @@ def oxford_comma(array)
     return "#{array[0]} and #{array[1]}"
  else
    last_element = ", and #{array.pop}"
-   strin_array = array.join(", ")
-   return "#{strin_array}#{last_element}"
+   string_array = array.join(", ")
+   return "#{string_array}#{last_element}"
   end
 end
